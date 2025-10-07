@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightIntroduction", "01-playwright-introduction\PlaywrightIntroduction.csproj", "{BCEB2A86-F7A5-D4A6-174C-F8A3C32A97EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-playwright-introduction", "01-playwright-introduction", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-playwright-locators", "02-playwright-locators", "{962938D9-A3D2-4BB6-80DE-C50B3436E2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightLocators", "02-playwright-locators\PlaywrightLocators.csproj", "{BEF205B2-6BF1-409C-B7D7-4F6C627CA261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-playwright-auto-waits", "03-playwright-auto-waits", "{C52A0058-35FE-4224-8446-57D5748923C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightAutoWaits", "03-playwright-auto-waits\PlaywrightAutoWaits.csproj", "{D35EB6AC-A101-4C90-94BC-3445EB878670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-playwright-page-objects", "04-playwright-page-objects", "{3B6636D7-F625-49DF-9A30-A3A820321596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightPOM", "04-playwright-page-objects\PlaywrightPOM.csproj", "{FAFDE3D4-9771-407F-A216-91DEA7B9713A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-playwright-context-management", "05-playwright-context-management", "{CFEDE5E1-0552-4B54-9D08-75B4B1376802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightContextManagement", "05-playwright-context-management\PlaywrightContextManagement.csproj", "{1A581B18-8013-435C-9C14-D7D742959B2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-playwright-advanced-interactions", "06-playwright-advanced-interactions", "{BCF1C84F-5816-4FE9-82C8-2998781CA18D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightAdvancedInteractions", "06-playwright-advanced-interactions\PlaywrightAdvancedInteractions.csproj", "{7655DC0C-3B65-4113-9562-BA1F78B0A583}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-playwright-framework", "07-playwright-framework", "{BEDE621D-25D2-48D4-BBF8-3A4B6711C6C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaywrightFramework", "07-playwright-framework\PlaywrightFramework.csproj", "{BDB0E39C-147B-4EC0-8FA1-727896D544D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCEB2A86-F7A5-D4A6-174C-F8A3C32A97EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCEB2A86-F7A5-D4A6-174C-F8A3C32A97EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCEB2A86-F7A5-D4A6-174C-F8A3C32A97EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCEB2A86-F7A5-D4A6-174C-F8A3C32A97EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF205B2-6BF1-409C-B7D7-4F6C627CA261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF205B2-6BF1-409C-B7D7-4F6C627CA261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF205B2-6BF1-409C-B7D7-4F6C627CA261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF205B2-6BF1-409C-B7D7-4F6C627CA261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D35EB6AC-A101-4C90-94BC-3445EB878670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D35EB6AC-A101-4C90-94BC-3445EB878670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D35EB6AC-A101-4C90-94BC-3445EB878670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D35EB6AC-A101-4C90-94BC-3445EB878670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFDE3D4-9771-407F-A216-91DEA7B9713A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFDE3D4-9771-407F-A216-91DEA7B9713A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFDE3D4-9771-407F-A216-91DEA7B9713A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFDE3D4-9771-407F-A216-91DEA7B9713A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A581B18-8013-435C-9C14-D7D742959B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A581B18-8013-435C-9C14-D7D742959B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A581B18-8013-435C-9C14-D7D742959B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A581B18-8013-435C-9C14-D7D742959B2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7655DC0C-3B65-4113-9562-BA1F78B0A583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7655DC0C-3B65-4113-9562-BA1F78B0A583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7655DC0C-3B65-4113-9562-BA1F78B0A583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7655DC0C-3B65-4113-9562-BA1F78B0A583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB0E39C-147B-4EC0-8FA1-727896D544D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB0E39C-147B-4EC0-8FA1-727896D544D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB0E39C-147B-4EC0-8FA1-727896D544D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB0E39C-147B-4EC0-8FA1-727896D544D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCEB2A86-F7A5-D4A6-174C-F8A3C32A97EB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{BEF205B2-6BF1-409C-B7D7-4F6C627CA261} = {962938D9-A3D2-4BB6-80DE-C50B3436E2C4}
+		{D35EB6AC-A101-4C90-94BC-3445EB878670} = {C52A0058-35FE-4224-8446-57D5748923C7}
+		{FAFDE3D4-9771-407F-A216-91DEA7B9713A} = {3B6636D7-F625-49DF-9A30-A3A820321596}
+		{1A581B18-8013-435C-9C14-D7D742959B2A} = {CFEDE5E1-0552-4B54-9D08-75B4B1376802}
+		{7655DC0C-3B65-4113-9562-BA1F78B0A583} = {BCF1C84F-5816-4FE9-82C8-2998781CA18D}
+		{BDB0E39C-147B-4EC0-8FA1-727896D544D3} = {BEDE621D-25D2-48D4-BBF8-3A4B6711C6C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {015ABC05-562F-4885-9139-63F4ACB962DA}
+	EndGlobalSection
+EndGlobal
